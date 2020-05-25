@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		835B7540247B4C1E003A5FA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835B753F247B4C1E003A5FA5 /* AppDelegate.swift */; };
+		835B7542247B4C1E003A5FA5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835B7541247B4C1E003A5FA5 /* SceneDelegate.swift */; };
+		835B7544247B4C1E003A5FA5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835B7543247B4C1E003A5FA5 /* ContentView.swift */; };
+		835B7546247B4C20003A5FA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 835B7545247B4C20003A5FA5 /* Assets.xcassets */; };
+		835B7549247B4C20003A5FA5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 835B7548247B4C20003A5FA5 /* Preview Assets.xcassets */; };
+		835B754C247B4C20003A5FA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 835B754A247B4C20003A5FA5 /* LaunchScreen.storyboard */; };
+		835B7557247B4C21003A5FA5 /* FFT_SpectroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835B7556247B4C21003A5FA5 /* FFT_SpectroTests.swift */; };
+		835B7562247B4C21003A5FA5 /* FFT_SpectroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835B7561247B4C21003A5FA5 /* FFT_SpectroUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		835B7553247B4C21003A5FA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 835B7534247B4C1E003A5FA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 835B753B247B4C1E003A5FA5;
+			remoteInfo = "FFT Spectro";
+		};
+		835B755E247B4C21003A5FA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 835B7534247B4C1E003A5FA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 835B753B247B4C1E003A5FA5;
+			remoteInfo = "FFT Spectro";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		835B753C247B4C1E003A5FA5 /* FFT Spectro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FFT Spectro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		835B753F247B4C1E003A5FA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		835B7541247B4C1E003A5FA5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		835B7543247B4C1E003A5FA5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		835B7545247B4C20003A5FA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		835B7548247B4C20003A5FA5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		835B754B247B4C20003A5FA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		835B754D247B4C20003A5FA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		835B7552247B4C21003A5FA5 /* FFT SpectroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FFT SpectroTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		835B7556247B4C21003A5FA5 /* FFT_SpectroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFT_SpectroTests.swift; sourceTree = "<group>"; };
+		835B7558247B4C21003A5FA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		835B755D247B4C21003A5FA5 /* FFT SpectroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FFT SpectroUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		835B7561247B4C21003A5FA5 /* FFT_SpectroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFT_SpectroUITests.swift; sourceTree = "<group>"; };
+		835B7563247B4C21003A5FA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		835B7539247B4C1E003A5FA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		835B754F247B4C21003A5FA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		835B755A247B4C21003A5FA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		835B7533247B4C1E003A5FA5 = {
+			isa = PBXGroup;
+			children = (
+				835B753E247B4C1E003A5FA5 /* FFT Spectro */,
+				835B7555247B4C21003A5FA5 /* FFT SpectroTests */,
+				835B7560247B4C21003A5FA5 /* FFT SpectroUITests */,
+				835B753D247B4C1E003A5FA5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		835B753D247B4C1E003A5FA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				835B753C247B4C1E003A5FA5 /* FFT Spectro.app */,
+				835B7552247B4C21003A5FA5 /* FFT SpectroTests.xctest */,
+				835B755D247B4C21003A5FA5 /* FFT SpectroUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		835B753E247B4C1E003A5FA5 /* FFT Spectro */ = {
+			isa = PBXGroup;
+			children = (
+				835B753F247B4C1E003A5FA5 /* AppDelegate.swift */,
+				835B7541247B4C1E003A5FA5 /* SceneDelegate.swift */,
+				835B7543247B4C1E003A5FA5 /* ContentView.swift */,
+				835B7545247B4C20003A5FA5 /* Assets.xcassets */,
+				835B754A247B4C20003A5FA5 /* LaunchScreen.storyboard */,
+				835B754D247B4C20003A5FA5 /* Info.plist */,
+				835B7547247B4C20003A5FA5 /* Preview Content */,
+			);
+			path = "FFT Spectro";
+			sourceTree = "<group>";
+		};
+		835B7547247B4C20003A5FA5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				835B7548247B4C20003A5FA5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		835B7555247B4C21003A5FA5 /* FFT SpectroTests */ = {
+			isa = PBXGroup;
+			children = (
+				835B7556247B4C21003A5FA5 /* FFT_SpectroTests.swift */,
+				835B7558247B4C21003A5FA5 /* Info.plist */,
+			);
+			path = "FFT SpectroTests";
+			sourceTree = "<group>";
+		};
+		835B7560247B4C21003A5FA5 /* FFT SpectroUITests */ = {
+			isa = PBXGroup;
+			children = (
+				835B7561247B4C21003A5FA5 /* FFT_SpectroUITests.swift */,
+				835B7563247B4C21003A5FA5 /* Info.plist */,
+			);
+			path = "FFT SpectroUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		835B753B247B4C1E003A5FA5 /* FFT Spectro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 835B7566247B4C21003A5FA5 /* Build configuration list for PBXNativeTarget "FFT Spectro" */;
+			buildPhases = (
+				835B7538247B4C1E003A5FA5 /* Sources */,
+				835B7539247B4C1E003A5FA5 /* Frameworks */,
+				835B753A247B4C1E003A5FA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FFT Spectro";
+			productName = "FFT Spectro";
+			productReference = 835B753C247B4C1E003A5FA5 /* FFT Spectro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		835B7551247B4C21003A5FA5 /* FFT SpectroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 835B7569247B4C21003A5FA5 /* Build configuration list for PBXNativeTarget "FFT SpectroTests" */;
+			buildPhases = (
+				835B754E247B4C21003A5FA5 /* Sources */,
+				835B754F247B4C21003A5FA5 /* Frameworks */,
+				835B7550247B4C21003A5FA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				835B7554247B4C21003A5FA5 /* PBXTargetDependency */,
+			);
+			name = "FFT SpectroTests";
+			productName = "FFT SpectroTests";
+			productReference = 835B7552247B4C21003A5FA5 /* FFT SpectroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		835B755C247B4C21003A5FA5 /* FFT SpectroUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 835B756C247B4C21003A5FA5 /* Build configuration list for PBXNativeTarget "FFT SpectroUITests" */;
+			buildPhases = (
+				835B7559247B4C21003A5FA5 /* Sources */,
+				835B755A247B4C21003A5FA5 /* Frameworks */,
+				835B755B247B4C21003A5FA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				835B755F247B4C21003A5FA5 /* PBXTargetDependency */,
+			);
+			name = "FFT SpectroUITests";
+			productName = "FFT SpectroUITests";
+			productReference = 835B755D247B4C21003A5FA5 /* FFT SpectroUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		835B7534247B4C1E003A5FA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = Anadyr;
+				TargetAttributes = {
+					835B753B247B4C1E003A5FA5 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					835B7551247B4C21003A5FA5 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 835B753B247B4C1E003A5FA5;
+					};
+					835B755C247B4C21003A5FA5 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 835B753B247B4C1E003A5FA5;
+					};
+				};
+			};
+			buildConfigurationList = 835B7537247B4C1E003A5FA5 /* Build configuration list for PBXProject "FFT Spectro" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 835B7533247B4C1E003A5FA5;
+			productRefGroup = 835B753D247B4C1E003A5FA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				835B753B247B4C1E003A5FA5 /* FFT Spectro */,
+				835B7551247B4C21003A5FA5 /* FFT SpectroTests */,
+				835B755C247B4C21003A5FA5 /* FFT SpectroUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		835B753A247B4C1E003A5FA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				835B754C247B4C20003A5FA5 /* LaunchScreen.storyboard in Resources */,
+				835B7549247B4C20003A5FA5 /* Preview Assets.xcassets in Resources */,
+				835B7546247B4C20003A5FA5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		835B7550247B4C21003A5FA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		835B755B247B4C21003A5FA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		835B7538247B4C1E003A5FA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				835B7540247B4C1E003A5FA5 /* AppDelegate.swift in Sources */,
+				835B7542247B4C1E003A5FA5 /* SceneDelegate.swift in Sources */,
+				835B7544247B4C1E003A5FA5 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		835B754E247B4C21003A5FA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				835B7557247B4C21003A5FA5 /* FFT_SpectroTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		835B7559247B4C21003A5FA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				835B7562247B4C21003A5FA5 /* FFT_SpectroUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		835B7554247B4C21003A5FA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 835B753B247B4C1E003A5FA5 /* FFT Spectro */;
+			targetProxy = 835B7553247B4C21003A5FA5 /* PBXContainerItemProxy */;
+		};
+		835B755F247B4C21003A5FA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 835B753B247B4C1E003A5FA5 /* FFT Spectro */;
+			targetProxy = 835B755E247B4C21003A5FA5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		835B754A247B4C20003A5FA5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				835B754B247B4C20003A5FA5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		835B7564247B4C21003A5FA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		835B7565247B4C21003A5FA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		835B7567247B4C21003A5FA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FFT Spectro/Preview Content\"";
+				DEVELOPMENT_TEAM = 282V5L9L43;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "FFT Spectro/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "anadyrskie.FFT-Spectro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		835B7568247B4C21003A5FA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FFT Spectro/Preview Content\"";
+				DEVELOPMENT_TEAM = 282V5L9L43;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "FFT Spectro/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "anadyrskie.FFT-Spectro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		835B756A247B4C21003A5FA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 282V5L9L43;
+				INFOPLIST_FILE = "FFT SpectroTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "anadyrskie.FFT-SpectroTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FFT Spectro.app/FFT Spectro";
+			};
+			name = Debug;
+		};
+		835B756B247B4C21003A5FA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 282V5L9L43;
+				INFOPLIST_FILE = "FFT SpectroTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "anadyrskie.FFT-SpectroTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FFT Spectro.app/FFT Spectro";
+			};
+			name = Release;
+		};
+		835B756D247B4C21003A5FA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 282V5L9L43;
+				INFOPLIST_FILE = "FFT SpectroUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "anadyrskie.FFT-SpectroUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "FFT Spectro";
+			};
+			name = Debug;
+		};
+		835B756E247B4C21003A5FA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 282V5L9L43;
+				INFOPLIST_FILE = "FFT SpectroUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "anadyrskie.FFT-SpectroUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "FFT Spectro";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		835B7537247B4C1E003A5FA5 /* Build configuration list for PBXProject "FFT Spectro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				835B7564247B4C21003A5FA5 /* Debug */,
+				835B7565247B4C21003A5FA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		835B7566247B4C21003A5FA5 /* Build configuration list for PBXNativeTarget "FFT Spectro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				835B7567247B4C21003A5FA5 /* Debug */,
+				835B7568247B4C21003A5FA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		835B7569247B4C21003A5FA5 /* Build configuration list for PBXNativeTarget "FFT SpectroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				835B756A247B4C21003A5FA5 /* Debug */,
+				835B756B247B4C21003A5FA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		835B756C247B4C21003A5FA5 /* Build configuration list for PBXNativeTarget "FFT SpectroUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				835B756D247B4C21003A5FA5 /* Debug */,
+				835B756E247B4C21003A5FA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 835B7534247B4C1E003A5FA5 /* Project object */;
+}
