@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		834EAE96247B90980030E451 /* TempiFFT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834EAE95247B90980030E451 /* TempiFFT.swift */; };
+		834EAE98247B90AE0030E451 /* TempiAudioInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834EAE97247B90AE0030E451 /* TempiAudioInput.swift */; };
+		834EAE9A247B93240030E451 /* Tuner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834EAE99247B93240030E451 /* Tuner.swift */; };
 		835B7540247B4C1E003A5FA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835B753F247B4C1E003A5FA5 /* AppDelegate.swift */; };
 		835B7542247B4C1E003A5FA5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835B7541247B4C1E003A5FA5 /* SceneDelegate.swift */; };
 		835B7544247B4C1E003A5FA5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835B7543247B4C1E003A5FA5 /* ContentView.swift */; };
@@ -15,6 +18,8 @@
 		835B754C247B4C20003A5FA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 835B754A247B4C20003A5FA5 /* LaunchScreen.storyboard */; };
 		835B7557247B4C21003A5FA5 /* FFT_SpectroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835B7556247B4C21003A5FA5 /* FFT_SpectroTests.swift */; };
 		835B7562247B4C21003A5FA5 /* FFT_SpectroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835B7561247B4C21003A5FA5 /* FFT_SpectroUITests.swift */; };
+		839A218E253D874A009DD4DC /* FFT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839A218D253D874A009DD4DC /* FFT.swift */; };
+		83DBA808247D989D003A5DE4 /* TunerViewUpdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DBA807247D989D003A5DE4 /* TunerViewUpdate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		834EAE95247B90980030E451 /* TempiFFT.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TempiFFT.swift; path = "../../../Libraries/tempi-fft/TempiFFT/TempiFFT.swift"; sourceTree = "<group>"; };
+		834EAE97247B90AE0030E451 /* TempiAudioInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TempiAudioInput.swift; path = "../../../Libraries/tempi-fft/TempiFFT/TempiAudioInput.swift"; sourceTree = "<group>"; };
+		834EAE99247B93240030E451 /* Tuner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tuner.swift; sourceTree = "<group>"; };
 		835B753C247B4C1E003A5FA5 /* FFT Spectro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FFT Spectro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		835B753F247B4C1E003A5FA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		835B7541247B4C1E003A5FA5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +57,8 @@
 		835B755D247B4C21003A5FA5 /* FFT SpectroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FFT SpectroUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		835B7561247B4C21003A5FA5 /* FFT_SpectroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFT_SpectroUITests.swift; sourceTree = "<group>"; };
 		835B7563247B4C21003A5FA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		839A218D253D874A009DD4DC /* FFT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFT.swift; sourceTree = "<group>"; };
+		83DBA807247D989D003A5DE4 /* TunerViewUpdate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TunerViewUpdate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +111,16 @@
 			children = (
 				835B753F247B4C1E003A5FA5 /* AppDelegate.swift */,
 				835B7541247B4C1E003A5FA5 /* SceneDelegate.swift */,
+				834EAE95247B90980030E451 /* TempiFFT.swift */,
+				834EAE97247B90AE0030E451 /* TempiAudioInput.swift */,
+				834EAE99247B93240030E451 /* Tuner.swift */,
 				835B7543247B4C1E003A5FA5 /* ContentView.swift */,
 				835B7545247B4C20003A5FA5 /* Assets.xcassets */,
 				835B754A247B4C20003A5FA5 /* LaunchScreen.storyboard */,
 				835B754D247B4C20003A5FA5 /* Info.plist */,
 				835B7547247B4C20003A5FA5 /* Preview Content */,
+				83DBA807247D989D003A5DE4 /* TunerViewUpdate.swift */,
+				839A218D253D874A009DD4DC /* FFT.swift */,
 			);
 			path = "FFT Spectro";
 			sourceTree = "<group>";
@@ -267,8 +282,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83DBA808247D989D003A5DE4 /* TunerViewUpdate.swift in Sources */,
+				834EAE96247B90980030E451 /* TempiFFT.swift in Sources */,
 				835B7540247B4C1E003A5FA5 /* AppDelegate.swift in Sources */,
 				835B7542247B4C1E003A5FA5 /* SceneDelegate.swift in Sources */,
+				839A218E253D874A009DD4DC /* FFT.swift in Sources */,
+				834EAE98247B90AE0030E451 /* TempiAudioInput.swift in Sources */,
+				834EAE9A247B93240030E451 /* Tuner.swift in Sources */,
 				835B7544247B4C1E003A5FA5 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -366,7 +386,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -420,7 +440,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

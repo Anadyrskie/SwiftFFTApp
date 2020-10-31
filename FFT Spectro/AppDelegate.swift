@@ -7,14 +7,20 @@
 //
 
 import UIKit
+import Foundation
+import AVFoundation
+
+var spectral = Spectral()
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        launched = true
+        spectral.start()
+
         return true
     }
 
@@ -34,4 +40,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 }
+
+
+
 
